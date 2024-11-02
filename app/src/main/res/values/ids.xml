@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logoBanner" type="id" />
+    <item name="featuredServicesTitle" type="id" />
+    <item name="featuredServicesScroll" type="id" />
+    <item name="bottomNavigation" type="id" />
+    <item name="serviceLayout2" type="id" />
+</resources>
