@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFF6F2"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At our beauty salon, we pride ourselves on offering a comprehensive range of services designed to enhance your appearance and elevate your well-being. From hair and nail treatments to facials and IV drips, our skilled and dedicated team is committed to delivering exceptional care in a tranquil and inviting atmosphere. Your satisfaction is our priority, and we strive to ensure that each visit leaves you feeling rejuvenated and confident.
+
+"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:backgroundTint="#FFE3E0"
+            android:background="@drawable/border"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView android:id="@+id/about2_image"
+            android:layout_width="380dp"
+            android:layout_height="330dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/about_image__2_"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our mission is to enhance your natural beauty and elevate your confidence through a diverse range of exceptional beauty treatments. We believe that every individual deserves to feel their best, and we are dedicated to providing personalized services that cater to your unique needs and preferences. By combining expert knowledge, high-quality products, and a warm, inviting atmosphere, we aim to create an uplifting experience that not only transforms your appearance but also nourishes your spirit. At our salon, your beauty journey is our priority, and we are committed to helping you shine inside and out."
+            android:textSize="16sp"
+            android:backgroundTint="#FFE3E0"
+            android:background="@drawable/border"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView android:id="@+id/about_image"
+        android:layout_width="380dp"
+        android:layout_height="330dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/about_image__1_"
+        android:scaleType="centerCrop"
+        />
+
+        <!-- Contact Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us:"
+            android:textSize="18sp"
+            android:backgroundTint="#FFE3E0"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +27 74 357 4899\nEmail: admin@beauty911.co.za\nAddress: 425 Granite Crescent"
+            android:textSize="16sp"
+            android:backgroundTint="#FFE3E0"
+            android:background="@drawable/border"
+            android:textColor="#333333"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

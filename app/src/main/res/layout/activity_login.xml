@@ -27,10 +27,10 @@
         android:layout_marginBottom="32dp" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:hint="Username:"
+        android:hint="Email:"
         android:textStyle="bold"
         android:textSize="15sp"
         android:backgroundTint="#FFE3E0"

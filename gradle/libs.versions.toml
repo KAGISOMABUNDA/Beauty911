@@ -1,36 +1,33 @@
 [versions]
-agp = "8.7.1"
-kotlin = "2.0.0"
-coreKtx = "1.15.0"
+androidx_core_ktx = "1.10.0"
+androidx_lifecycle_runtime_ktx = "2.6.1"
+androidx_activity_compose = "1.7.2"
+androidx_compose_bom = "2023.07.00"
+androidx_compose_ui = "1.7.5"
+firebase_auth = "21.1.0"
+firebase_database = "20.2.0"
+firebase_firestore = "24.2.1"
+support_annotations = "1.0.2"
+annotation = "1.1.0"
 junit = "4.13.2"
-material = "1.9.0"
-junitVersion = "1.2.1"
-espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.8.7"
-activityCompose = "1.9.3"
-composeBom = "2024.04.01"
+androidx_junit = "1.1.5"
+androidx_espresso_core = "3.5.1"
+androidx_compose_ui_test_junit4 = "1.4.0"
 appcompat = "1.7.0"
 
 [libraries]
-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-junit = { group = "junit", name = "junit", version.ref = "junit" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
-androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
-androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
-androidx-ui = { group = "androidx.compose.ui", name = "ui" }
-androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
-androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
-androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
-androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
-androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
-androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
-material = { module = "com.google.android.material:material", version.ref = "material" }
-androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
-
-[plugins]
-android-application = { id = "com.android.application", version.ref = "agp" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
+androidx_core_ktx = { module = "androidx.core:core-ktx", version.ref = "androidx_core_ktx" }
+androidx_lifecycle_runtime_ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx_lifecycle_runtime_ktx" }
+androidx_activity_compose = { module = "androidx.activity:activity-compose", version.ref = "androidx_activity_compose" }
+androidx_compose_bom = { module = "androidx.compose:compose-bom", version.ref = "androidx_compose_bom" }
+androidx_compose_ui = { module = "androidx.compose.ui:ui", version.ref = "androidx_compose_ui" }
+firebase_auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebase_auth" }
+firebase_database = { module = "com.google.firebase:firebase-database", version.ref = "firebase_database" }
+firebase_firestore = { module = "com.google.firebase:firebase-firestore", version.ref = "firebase_firestore" }
+support_annotations = { module = "androidx.annotation:annotation", version.ref = "support_annotations" }
+annotation = { module = "org.jetbrains:annotations", version.ref = "annotation" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx_junit = { module = "androidx.test.ext:junit", version.ref = "androidx_junit" }
+androidx_espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx_espresso_core" }
+androidx_compose_ui_test_junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "androidx_compose_ui_test_junit4" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }

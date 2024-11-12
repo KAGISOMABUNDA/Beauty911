@@ -5,5 +5,6 @@
     <color name="accent">#DDA0DD</color> <!-- Light Purple -->
     <color name="textPrimary">#000000</color>
     <color name="textSecondary">#FFFFFF</color>
-    <color name="black" />
+    <color name="black" >#000000</color>
+    <color name="purple_500" >#F1CFF8</color>
 </resources>

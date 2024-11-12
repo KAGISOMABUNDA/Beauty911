@@ -5,4 +5,10 @@
     <item name="featuredServicesScroll" type="id" />
     <item name="bottomNavigation" type="id" />
     <item name="serviceLayout2" type="id" />
+    <item name="cartTitle" type="id" />
+    <item name="cartItemsTextView" type="id" />
+    <item name="totalCostTextView" type="id" />
+    <item name="checkoutButton" type="id" />
+    <item name="approveButton" type="id" />
+    <item name="disapproveButton" type="id" />
 </resources>
